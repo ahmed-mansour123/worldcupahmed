@@ -1,0 +1,2032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/197/197624.png" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <title>Quatar cup world</title>
+
+
+    <style>
+        body {
+            font-family: 'Almarai', sans-serif;
+        }
+
+        .bg-primary {
+            background-color: #8a1538 !important;
+            color: white;
+        }
+
+        .bg-secondary {
+            background-color: #5b0d25 !important;
+            color: white;
+        }
+
+        #header {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+            border-bottom: solid 20px #5b0d25;
+        }
+
+        #header-background {
+            background-image: url("nj.jpg");
+        }
+
+        #logo-header {
+            position: absolute;
+            z-index: 999;
+            left: 100px;
+            top: 60px;
+        }
+
+        #logo-img {
+            -webkit-filter: drop-shadow(5px 5px 50px #222);
+            filter: drop-shadow(5px 5px 30px #222);
+        }
+
+        #header-border {
+            height: 200px;
+            background: #5b0d25;
+            position: relative;
+            top: -203px;
+            z-index: -9;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="logo-header">
+        <img id="logo-img" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" alt="" style="height: 300px;">
+    </div>
+
+    <div id="header" style="height: 20rem" class="bg-primary">
+        <div id="header-background" style="height: 100%; width: 100%">
+            <div style="direction: rtl; font-size: 50px; margin-right: 100px" class="p-5">
+                <i><h1 style="font-size:30px;"><b>created by </b></h1></i>
+		  <u><i><h1 style="font-size:50px; color:beige"><b>ahmed mansour</b></h1></i></u>
+		  <i><h6><strong>2ème info 1</strong></h6></i>
+		  <h5><b>Gifted for all my friends</b></h5>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center"style="margin-top: 30px">
+        <img src="qatar-word.png" alt="" style="width: 400px; margin: 0px auto">
+    </div>
+    <div class="container" style="margin-top: 50px">
+
+        <!-- GROUPS -->
+        <div  class="p-5 mt-1">
+            <table align="center" >
+               <tr> <th><font color="green">
+                       <h1 align="center"><b> GOOD LUK CHARTAGE EAGLES </b></h1>
+                    </font>
+                </th>
+            </tr>
+            <tr>  
+              <th>
+                  <font align="center"><h2 aligne="center"><b><i>we are tunisiens</i></b></h2></font>
+              </th>
+            </tr>
+
+            </table>
+            <div align="center">
+                <a href="https://stad.yalla-shoot.io/m/" target="_blank"><img width="100px" src="https://upload.wikimedia.org/wikipedia/ar/thumb/3/35/%D8%B4%D8%B9%D8%A7%D8%B1_%D9%84%D8%B9%D9%8A%D8%A8.png/160px-%D8%B4%D8%B9%D8%A7%D8%B1_%D9%84%D8%B9%D9%8A%D8%A8.png" alt=""/>
+                    <h4>Matches link</h4></a>
+            </div> 
+
+            <!-- TITLE ROW -->
+            <div class="row" style="direction: rtl;">
+                <h1>
+                    <b>المجموعات</b>
+                </h1>
+                <hr>
+            </div>
+            <div class="row" id="standings">
+
+                <!-- GROUP COL -->
+                <div class="col-lg-6">
+                    <div class="card shadow border-none">
+                        <div class="card-header bg-primary" style="text-align: center">
+                            <b>Group_A</b>
+                        </div>
+                        <div class="row m-0 bg-secondary">
+                            <div class="col-lg-4" style="text-align: center;">
+                                team
+                            </div>
+                            <div class="col-lg-2">
+                                W
+                            </div>
+                            <div class="col-lg-2">
+                                L
+                            </div>
+                            <div class="col-lg-2">
+                                D
+                            </div>
+                            <div class="col-lg-2">
+                                Pts
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/langfr-225px-Flag_of_the_Netherlands.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">NTH</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://cdn.britannica.com/49/149-004-986E1BD8/flag-design-similarities-Ecuador-Colombia-flags-Venezuela.jpg" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">EQU</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://cdn.britannica.com/70/5070-004-2963C5E1/Flag-Senegal.jpg" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">SEN</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Qatar_%283-2%29.svg/1024px-Flag_of_Qatar_%283-2%29.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">QUA</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+                        </ul>
+                    </div>
+                </div>
+                <!--// GROUP COL //-->
+
+                <!-- GROUP COL -->
+                <div class="col-lg-6">
+                    <div class="card shadow border-none">
+                        <div class="card-header bg-primary" style="text-align: center">
+                            <b>Group_B</b>
+                        </div>
+                        <div class="row m-0 bg-secondary">
+                            <div class="col-lg-4" style="text-align: center;">
+                                team
+                            </div>
+                            <div class="col-lg-2">
+                                W
+                            </div>
+                            <div class="col-lg-2">
+                                L
+                            </div>
+                            
+                            <div class="col-lg-2">
+                                D
+                            </div>
+                            <div class="col-lg-2">
+                                Pts
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/langfr-225px-Flag_of_England.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">ENG</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Wales_%281959%29.svg/2560px-Flag_of_Wales_%281959%29.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">WAL</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/langfr-225px-Flag_of_the_United_States.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">UNT</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/800px-Flag_of_Iran.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">IRA</h5>
+                                    </div>
+                                    <!--// TEAM //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+                        </ul>
+                    </div>
+                </div>
+                <!--// GROUP COL //-->
+
+                <!-- GROUP COL -->
+                <div class="col-lg-6 mt-3">
+                    <div class="card shadow border-none">
+                        <div class="card-header bg-primary" style="text-align: center">
+                            <b>Group_C</b>
+                        </div>
+                        <div class="row m-0 bg-secondary">
+                            <div class="col-lg-4" style="text-align: center;">
+                                team
+                            </div>
+                            <div class="col-lg-2">
+                                W
+                            </div>
+                            <div class="col-lg-2">
+                                L
+                            </div>
+                            <div class="col-lg-2">
+                                D
+                            </div>
+                            <div class="col-lg-2">
+                                Pts
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://cdn.britannica.com/69/5869-004-7D75CD05/Flag-Argentina.jpg" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">ARG</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/2560px-Flag_of_Mexico.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">MEX</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/2560px-Flag_of_Poland.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">POL</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/560px-Flag_of_Saudi_Arabia.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">KSA</h5>
+                                    </div>
+                                    <!--// TEAM //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+                        </ul>
+                    </div>
+                </div>
+                <!--// GROUP COL //-->
+
+                <!-- GROUP COL -->
+                <div class="col-lg-6 mt-3">
+                    <div class="card shadow border-none">
+                        <div class="card-header bg-primary" style="text-align: center">
+                            <b>Group_D</b>
+                        </div>
+                        <div class="row m-0 bg-secondary">
+                            <div class="col-lg-4" style="text-align: center;">
+                                team
+                            </div>
+                            <div class="col-lg-2">
+                                W
+                            </div>
+                            <div class="col-lg-2">
+                                L
+                            </div>
+                            <div class="col-lg-2">
+                                D
+                            </div>
+                            <div class="col-lg-2">
+                                Pts
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://t3.ftcdn.net/jpg/01/04/47/12/360_F_104471279_8yKN8aFzt4yPsU8MdYjCXqequAPMLgSK.jpg" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">AUS</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/800px-Flag_of_Denmark.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">DEN</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAARVBMVEX///8AJlPOEScAJlQAFFEAKE0BJVZ2hpjOEiXPAB3TgYTQDyno6OjQECf//f/q6OoGK1gAG1ZsfZDq8O/r7ujPd3vNEyqjTlYkAAABTUlEQVR4nO3TSQ7CMBREQeMwJCTEme9/VCBrtl/IUr0jlLrTNF0iau63eVnLEFPZ9q49ckx9ChE5Ta6PFNWYnl2OMjnqNWmDSHKu2MR3fpi8gqrYpA8iqXQn6TTxHSZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyZMmDBhwoQJEyb/NWkCTcYgkfFjko8gk5ymEJKvybysZYipbHvXRpn0bznrALRzpDS4AAAAAElFTkSuQmCC" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">FRA</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/langfr-225px-Flag_of_Tunisia.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">TUN</h5>
+                                    </div>
+                                    <!--// TEAM //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+                        </ul>
+                    </div>
+                </div>
+                <!--// GROUP COL //-->
+
+                <!-- GROUP COL -->
+                <div class="col-lg-6 mt-3">
+                    <div class="card shadow border-none">
+                        <div class="card-header bg-primary" style="text-align: center">
+                            <b>Group_E</b>
+                        </div>
+                        <div class="row m-0 bg-secondary">
+                            <div class="col-lg-4" style="text-align: center;">
+                                team
+                            </div>
+                            <div class="col-lg-2">
+                                W
+                            </div>
+                            <div class="col-lg-2">
+                                L
+                            </div>
+                            <div class="col-lg-2">
+                                D
+                            </div>
+                            <div class="col-lg-2">
+                                Pts
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/1280px-Flag_of_Costa_Rica_%28state%29.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">COS</h5>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">ALM</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">JAP</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://i.pinimg.com/736x/1d/93/a6/1d93a6f366f0da6265ced4697b9faff4--conversation.jpg" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">ESP</h5>
+                                    </div>
+                                    <!--// TEAM //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+                        </ul>
+                    </div>
+                </div>
+                <!--// GROUP COL //-->
+
+           
+                <div class="col-lg-6 mt-3">
+                    <div class="card shadow border-none">
+                        <div class="card-header bg-primary" style="text-align: center">
+                            <b>Group_F</b>
+                        </div>
+                        <div class="row m-0 bg-secondary">
+                            <div class="col-lg-4" style="text-align: center;">
+                                team
+                            </div>
+                            <div class="col-lg-2">
+                                W
+                            </div>
+                            <div class="col-lg-2">
+                                L
+                            </div>
+                            <div class="col-lg-2">
+                                D
+                            </div>
+                            <div class="col-lg-2">
+                                Pts
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/800px-Flag_of_Belgium_%28civil%29.svg.png?20210827145021" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">BEL</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://cdn.britannica.com/68/7068-004-7848FEB4/Flag-Canada.jpg" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">CAN</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/2560px-Flag_of_Croatia.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">CRO</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/2560px-Flag_of_Morocco.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">MAR</h5>
+                                    </div>
+                                    <!--// TEAM //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        2
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        1
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>7</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+                        </ul>
+                    </div>
+                </div>
+                <!--// GROUP COL //-->
+                <div class="col-lg-6 mt-3">
+                    <div class="card shadow border-none">
+                        <div class="card-header bg-primary" style="text-align: center">
+                            <b>Group_G</b>
+                        </div>
+                        <div class="row m-0 bg-secondary">
+                            <div class="col-lg-4" style="text-align: center;">
+                                team
+                            </div>
+                            <div class="col-lg-2">
+                                W
+                            </div>
+                            <div class="col-lg-2">
+                                L
+                            </div>
+                            <div class="col-lg-2">
+                                D
+                            </div>
+                            <div class="col-lg-2">
+                                Pts
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/2560px-Flag_of_Brazil.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">BRA</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://cdn.britannica.com/42/5042-004-7FF4ACCA/Flag-Cameroon.jpg" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">CAM</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1200px-Flag_of_Serbia.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">SER</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://media.istockphoto.com/id/1221518229/vector/switzerland-flag-vector-graphic-rectangle-swiss-flag-illustration-switzerland-country-flag.jpg?s=170667a&w=0&k=20&c=X-cQjR5UktrubKTSEVkydKB_nN4f1RrQAxgNYOUNink=" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">SUI</h5>
+                                    </div>
+                                    <!--// TEAM //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-3">
+                    <div class="card shadow border-none">
+                        <div class="card-header bg-primary" style="text-align: center">
+                            <b>Group_F</b>
+                        </div>
+                        <div class="row m-0 bg-secondary">
+                            <div class="col-lg-4" style="text-align: center;">
+                                team
+                            </div>
+                            <div class="col-lg-2">
+                                W
+                            </div>
+                            <div class="col-lg-2">
+                                L
+                            </div>
+                            <div class="col-lg-2">
+                                D
+                            </div>
+                            <div class="col-lg-2">
+                                Pts
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/640px-Flag_of_Ghana.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">GHA</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/320px-Flag_of_South_Korea.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">COR</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/255px-Flag_of_Portugal.svg.png" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">POR</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>0</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+
+                            <!-- TEAM -->
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM -->
+                                    <div class="col-lg-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="https://cdn.britannica.com/74/4874-004-50846A53/Flag-Uruguay.jpg" 
+                                                alt=""
+                                                style="width: 40px; height: 40px"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">URG</h5>
+                                    </div>
+                                    <!--// TEAM //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2">
+                                        2
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2">
+                                        1
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2">
+                                        0
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <b>7</b>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <!--// TEAM //-->
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="matches " class="mt-5">
+            -<div class="row" style="margin:0px">
+                <h1 style="direction: rtl;">
+                    <b>المباريات</b>
+                </h1>
+                <hr>
+
+                <div class="row mb-5" id="matches">
+
+                    <!-- MATCH COL -->
+                    <div class="col-lg-12" >
+
+                        <div class="card shadow rounded-pill mt-5" style="overflow: hidden">
+                            <!--<div class="card-header bg-primary" style="text-align: center">
+                                <b>Group_A</b>
+                            </div> -->
+
+                            <!-- MATCH CARD -->
+                            <div class="card-body p-0">
+                                <div class="row">
+
+                                    <!-- FIRST TEAM COL -->
+                                    <div class="col-lg-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center" style="border-right: solid 5px #5b0d25;">
+                                        <div class="d-flex align-items-center justify-content-center" style="text-align: center; margin: auto 0">
+                                        
+                                            <div>
+                                                <div class="flag">
+                                                    <img 
+                                                        class="rounded-circle border border-2" 
+                                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/langfr-225px-Flag_of_Tunisia.svg.png" 
+                                                        alt=""
+                                                        style="width: 40px; height: 40px"
+                                                    >
+                                                </div>
+                                                <h5 style="margin:auto 4px">TUN</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6" style="text-align: center">
+                                        <h6>group_D</h6>
+                                        <h1>X</h1>                                        
+                                        <h6>18:30</h6>
+                                    </div>
+                                    <div class="col-lg-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center" style="border-left: solid 5px #5b0d25;">
+                                        <div class="d-flex align-items-center justify-content-center" style="text-align: center; margin: auto 0">
+                                        
+                                            <div>
+                                                <div class="flag">
+                                                    <img 
+                                                        class="rounded-circle border border-2" 
+                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQIAAADDCAMAAABeUu/HAAAAQlBMVEXGDDD////LKEXGCS7EACPeiJTFACfYa3votLnDABz78PLKHj7ab4D++Pn99ffnrbXJEzjDABfWZnbBAAbx0dXdgo49nsQuAAABjElEQVR4nO3ax21DQRAFwR55R1I2/1SlBEgd/hIQoeoE3qKus10t7/ll93Ss/eF1/eDGul7e3f0c7+Fx/eDGWt8vBGdY/HMhQIAgBCEIQQhCEIIQhCAEIQhBCEIQghCEIAQhCEEIQhCCEIQgBCEIQQhCEIIQhCAEIQhBCEIQghCEIAQhCEEIQhCCEIQgBCEIQQhCEIIQhCAEIQhBCEIQghCEIAQhCEEIQhCCEIQgBCEIQRdIcLO8t/dTBB/rBzfW7foOJwg+v84wuK1OPPefhAABgkEwCAbBIBgEg2AQDIJBMAgGwSAYBINgEAyCQTAIBsEgGASDYBD85KZ467J8c4Zz/cX9L1gfAgQIQhCCEIQgBCEIQQhCEIIQhCAEIQhBCEIQghCEIAQhCEEIQhCCEIQgBCEIQQhCEIIQhCAEIQhBCEIQghCEIAQhCEEIQhCCEIQgBCEIQQhCEIIQhCAEIQhBCEIQghCEIAQhCEEIQhCCEHSBBNfL+4Vg/eDGulre88vu6Vj7w+v6wY19AwdEXBVnogT9AAAAAElFTkSuQmCC" 
+                                                        alt=""
+                                                        style="width: 40px; height: 40px"
+                                                    >
+                                                </div>
+                                                <h5 style="margin:auto 4px">DEN</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// SECOND TEAM COL //-->
+                                </div>
+                            </div>
+                            <!--// MATCH CARD //-->
+                        </div>
+                    </div>
+                    <!--// MATCH COL //-->
+    
+                </div>
+            </div>
+        </div>
+        <!--// MATCHES //-->
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+
+    const token = "1f03d446703e470ba3bc872d47f6787c";
+    let baseUrl = "https://api.football-data.org/v4"
+
+    function getStandings()
+    {
+        const url = `${baseUrl}/competitions/2000/standings`
+        axios.get(url, {
+            headers: {
+                "X-Auth-Token": `${token}`
+            }
+        })
+        .then((response) => {
+            
+            const standings = response.data.standings
+
+            document.getElementById("standings").innerHTML = ""
+            for(standing of standings)
+            {
+                let tableContent = ``
+
+                for(row of standing.table)
+                {
+                    tableContent += `
+                        <li class="list-group-item">
+                                <div class="row">
+
+                                    <!-- TEAM & KSA -->
+                                    <div class="col-lg-4 col-sm-4 d-flex align-items-center justify-content-center" style="text-align: center;">
+                                        
+                                        <span class="flag">
+                                            <img 
+                                                class="rounded-circle border border-2" 
+                                                src="${row.team.crest}" 
+                                                alt=""
+                                                style="width: 40px; height: 40px; object-fit: cover"
+                                            >
+                                        </span>
+                                        <h5 style="margin:auto 4px">${row.team.tla}</h5>
+                                    </div>
+                                    <!--// TEAM & KSA //-->
+
+                                    <!-- WIN -->
+                                    <div class="col-lg-2 col-sm-2">
+                                        ${row.won}
+                                    </div>
+                                    <!--// WIN //-->
+
+                                    <!-- LOSS -->
+                                    <div class="col-lg-2 col-sm-2">
+                                        ${row.lost}
+                                    </div>
+                                    <!--// LOSS //-->
+
+                                    
+                                    <div class="col-lg-2 col-sm-2">
+                                        ${row.draw}
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-2">
+                                        <b>${row.points}</b>
+                                    </div>
+                                </div>
+                                
+                        </li>
+                        <!--// TEAM //-->
+                            `
+                }
+
+                const content = `
+                <div class="col-lg-6" style="margin-top: 20px">
+                    <div class="card shadow border-none">
+                        <div class="card-header bg-primary" style="text-align: center">
+                            <b>${standing.group}</b>
+                        </div>
+                        <div class="row m-0 bg-secondary">
+                            <div class="col-lg-4 col-sm-4" style="text-align: center;">
+                                team
+                            </div>
+                            <div class="col-lg-2 col-sm-2">
+                                W
+                            </div>
+                            <div class="col-lg-2 col-sm-2">
+                                L
+                            </div>
+                            <div class="col-lg-2 col-sm-2">
+                                D
+                            </div>
+                            <div class="col-lg-2 col-sm-2">
+                                Pts
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                                ${tableContent}
+                        </ul>
+                    </div>
+                </div>
+                `
+                document.getElementById("standings").innerHTML += content
+            }
+        })
+    }
+
+    function getMatches()
+    {
+        const url = `${baseUrl}/competitions/2000/matches`
+
+        console.log(url, token)
+        axios.get(url, {
+            headers: {
+                "X-Auth-Token": `${token}`
+            }
+        })
+        .then((response) => {
+            const matches = response.data.matches
+            
+            document.getElementById("matches").innerHTML = ""
+
+            for(match of matches)
+            {
+                const homeTeam = match.homeTeam
+                const awayTeam = match.awayTeam
+
+                if(homeTeam.name == null)
+                {
+                    continue
+                }
+
+                const comp = match.competition
+                const dateUtc = match.utcDate
+                const matchTime = new Date(dateUtc)
+                const dateString = matchTime.getUTCFullYear() +"/"+ (matchTime.getUTCMonth()+1) +"/"+ matchTime.getUTCDate() + " " + matchTime.getUTCHours() + ":" + matchTime.getUTCMinutes() + ":" + matchTime.getUTCSeconds()
+                
+
+                
+                const content = `
+                    <!-- MATCH COL -->
+                    <div class="col-lg-12" >
+
+                        <div class="card shadow rounded-pill mt-5" style="overflow: hidden">                            
+
+                            <!-- MATCH CARD -->
+                            <div class="card-body p-0">
+                                <div class="row">
+
+                                    <!-- FIRST TEAM COL -->
+                                    <div class="col-lg-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center" style="border-right: solid 5px #5b0d25;">
+                                        <div class="d-flex align-items-center justify-content-center" style="text-align: center; margin: auto 0">
+                                        
+                                            <div>
+                                                <div class="flag">
+                                                    <img 
+                                                        class="rounded-circle border border-2" 
+                                                        src="${homeTeam.crest}" 
+                                                        alt=""
+                                                        style="width: 40px; height: 40px; object-fit: cover"
+                                                    >
+                                                </div>
+                                                <h5 style="margin:auto 4px">${homeTeam.tla}</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// FIRST TEAM COL //-->
+
+                                    <!-- VERSUS COL -->
+                                    <div class="col-lg-6" style="text-align: center">
+                                        <div class="row">
+                                            <div class="col-lg-4" style="margin: auto 0px">
+                                                <h3>
+                                                    ${match.score.fullTime.home ?? '-'}
+                                                </h3>
+                                            </div>
+
+                                            <div class="col-lg-4">
+                                                <h6>${match.group}</h6>
+                                                <h1>X</h1>                                        
+                                                <h6>${dateString}</h6>
+                                            </div>
+
+                                            <div class="col-lg-4" style="margin: auto 0px">
+                                                <h3>
+                                                    ${match.score.fullTime.away ?? '-'}
+                                                </h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// VERSUS COL //-->
+
+
+                                    <!-- SECOND TEAM COL -->
+                                    <div class="col-lg-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center" style="border-left: solid 5px #5b0d25;">
+                                        <div class="d-flex align-items-center justify-content-center" style="text-align: center; margin: auto 0">
+                                        
+                                            <div>
+                                                <div class="flag">
+                                                    <img 
+                                                        class="rounded-circle border border-2" 
+                                                        src="${awayTeam.crest}" 
+                                                        alt=""
+                                                        style="width: 40px; height: 40px; object-fit: cover"
+                                                    >
+                                                </div>
+                                                <h5 style="margin:auto 4px">${awayTeam.tla}</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// SECOND TEAM COL //-->
+                                </div>
+                            </div>
+                            <!--// MATCH CARD //-->
+                        </div>
+                    </div>
+                    <!--// MATCH COL //-->
+                    
+                `
+                document.getElementById("matches").innerHTML += content
+            }
+        })
+    }
+
+    getStandings()
+    getMatches()
+</script>
+</html>
